@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html>
+//set head and link to CSSFramework
+<head>
+    <meta charset="utf-8" />
+    <title>Great Composers</title>
+    <link rel="stylesheet" href="css/CSSFramework.css" />
+</head>
+<body>
+    //Within the body center each section of the webpage with text-align
+    <style>
+        div.a {
+            text-align: center;
+        }
+    </style>
+    <table width="100%" border="2px">
+
+        <tr>
+            <td colspan="8">//ensure the links, pictures, and images have the correct colspan 
+                <div class="a">
+                    <h1>Great Composers</h1>
+                </div>
+            </td>
+
+        </tr>
+
+        //connect buttons to individual pages: this method doesn't work well, I used the current method on html's instead of the button class below'
+            <td colspan="8">
+                <div class="a">
+                    <button class="tablink" onclick="conduct('Home', this, 'blue')" id="defaultOpen">Home</button>
+                    <button class="tablink" onclick="conduct('Bizet', this, 'blue')">Bizet</button>
+                    <button class="tablink" onclick="conduct('Mozart', this, 'blue')">Mozart</button>
+                    <button class="tablink" onclick="conduct('Puccini', this, 'blue')">Puccini</button>
+                    <button class="tablink" onclick="conduct('Verdi', this, 'blue')">Verdi</button>
+                    <button class="tablink" onclick="conduct('Wagner', this, 'blue')">Wagner</button>
+                </div>
+            </td>
+        <tr>
+        <tr>
+            <td>
+                <div class="a">
+                    <p> <img src="img/Composer.jpg" alt="Composer" height="400px" width="400px" /> </p>
+                </div>
+            </td>
+            <td>
+                <div class="a">
+                    <p>This website is a culmination of some of the world's greatest classical music composers.  </p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="8">
+                <div class="a">
+                    <p>Designed By: Aaron McCarley @2022 </p>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>

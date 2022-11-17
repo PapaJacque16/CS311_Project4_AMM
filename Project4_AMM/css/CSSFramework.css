@@ -1,0 +1,18 @@
+﻿
+#container {
+    
+}
+body {
+    border-block: 1px solid black;
+    text-align-last: center;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: palegoldenrod;
+    column-gap: 10px;
+}
+#links {
+  
+    background-color: aquamarine;
+}
+
+
+
